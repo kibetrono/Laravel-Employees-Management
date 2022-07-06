@@ -272,7 +272,14 @@
           </li>
           {{-- // Custom Dashboard--}}
          
-       
+         <li class="nav-item menu-open">
+            <a href="{{route ('home')}}" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Offices
+              </p>
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
